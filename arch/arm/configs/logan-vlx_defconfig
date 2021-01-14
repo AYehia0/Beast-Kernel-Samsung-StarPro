@@ -2453,6 +2453,7 @@ CONFIG_HAS_DMA=y
 CONFIG_NLATTR=y
 # CONFIG_AVERAGE is not set
 =======
+#
 # Beast Kernel Configuration
 # By Neil Agarwal (regalstreak)
 #
@@ -4886,3 +4887,4 @@ CONFIG_ANDROID_OOM_KILLER=y
 
 # GPIO DVS
 CONFIG_SEC_GPIO_DVS=y
+>>>>>>> parent of 7e5c34f7 (Add: Various Governors)
