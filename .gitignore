@@ -1,0 +1,17 @@
+#Ignoring some files for compilation
+.gitignore~
+*.sh~
+*.mk~
+*.fstab~
+*.rc~
+*.cfg~
+*.kl~
+*.cfg~
+*.xml~
+*.c~
+*.prop~
+*.txt~
+*.cpp~
+*.h~
+file_contexts~
+*.java~
