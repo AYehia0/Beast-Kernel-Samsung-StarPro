@@ -187,7 +187,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/i386/ -e s/sun4u/sparc64/ \
 				  -e s/sh[234].*/sh/ )
 
 ARCH		?= arm
-CROSS_COMPILE	?= /home/regalstreak/toolchains/linaro/linaro-4.6.4/bin/arm-unknown-linux-gnueabi-
+CROSS_COMPILE	?= /home/none/Desktop/star/toolchain/bin/arm-eabi-
 
 # Cross compiling and selecting different set of gcc/bin-utils
 # ---------------------------------------------------------------------------
@@ -196,6 +196,7 @@ CROSS_COMPILE	?= /home/regalstreak/toolchains/linaro/linaro-4.6.4/bin/arm-unknow
 # to the target architecture. (See arch/* for the possibilities).
 # ARCH can be set during invocation of make:
 # make ARCH=ia64
+#
 # Another way is to have ARCH set in the environment.
 # The default ARCH is the host where make is executed.
 
