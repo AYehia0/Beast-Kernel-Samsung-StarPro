@@ -1,5 +1,8 @@
 #Ignoring some files for compilation
 .gitignore~
+upstream
+*.orig
+*.rej
 *.sh~
 *.mk~
 *.fstab~
